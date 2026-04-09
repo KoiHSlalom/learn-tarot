@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>{{ title | default("Learn Tarot") }}</title>
+    <link rel="stylesheet" href="/assets/styles.css">
+    <script src="/assets/site.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a href="/" class="logo">Learn Tarot</a>
+      </div>
+    </header>
+
+    <main class="container">
+      {{ content | safe }}
+    </main>
+
+    <footer class="container footer">
+      <small>Local MVP — private journaling in your browser.</small>
+    </footer>
+  </body>
+</html>

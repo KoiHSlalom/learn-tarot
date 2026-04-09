@@ -1,0 +1,17 @@
+[
+  {
+    "img":"m00.jpg",
+    "name":"The Fool",
+    "prompt":"Original tarot card illustration of 'The Fool'. A youthful traveler stands at the edge of a cliff with a small dog at their heels, carrying a knapsack on a staff and holding a white rose. Emphasize openness, curiosity, and pure potential. Include symbolic motifs: air element motifs, a distant sun, and simple altar-like objects. Composition: vertical 2:3 portrait, ornate subtle border, high detail, painterly gouache style with warm, optimistic palette, soft film grain, moody but hopeful lighting. Create an original composition inspired by classic tarot symbolism — do not copy any specific existing deck art."
+  },
+  {
+    "img":"m01.jpg",
+    "name":"The Magician",
+    "prompt":"Original tarot card illustration of 'The Magician'. A confident figure stands before a small altar, arms raised, tools of the suits visible (cup, sword, wand, pentacle) arranged naturally. Convey empowerment, skill, and focused will. Include mercurial/lightning accents and subtle symbolic glyphs. Composition: vertical 2:3 portrait, ornate subtle border, painterly oil texture, high contrast rim lighting, rich saturated colors, intricate but readable details. Create an original composition inspired by classic tarot symbolism — do not copy any specific existing deck art."
+  },
+  {
+    "img":"m02.jpg",
+    "name":"The High Priestess",
+    "prompt":"Original tarot card illustration of 'The High Priestess'. A serene, mysterious woman seated between two pillars, veil with pomegranate motifs behind her, moonlit palette with deep blues and silver highlights. Emphasize intuition, secrecy, and inner knowledge. Include a scroll or book partially visible and subtle star motifs. Composition: vertical 2:3 portrait, decorative border, soft painterly watercolor/ink hybrid, cool desaturated palette, atmospheric rim lighting, high detail. Create an original composition inspired by classic tarot symbolism — do not copy any specific existing deck art."
+  }
+]
