@@ -1,0 +1,477 @@
+{
+  "ops": [
+    {
+      "name": "The Magician",
+      "from": "m01.jpg",
+      "to": "ar01.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "The High Priestess",
+      "from": "m02.jpg",
+      "to": "ar02.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "The Empress",
+      "from": "m03.jpg",
+      "to": "ar03.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "The Emperor",
+      "from": "m04.jpg",
+      "to": "ar04.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "The Hierophant",
+      "from": "m05.jpg",
+      "to": "ar05.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "The Lovers",
+      "from": "m06.jpg",
+      "to": "ar06.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "The Chariot",
+      "from": "m07.jpg",
+      "to": "ar07.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "The Hermit",
+      "from": "m09.jpg",
+      "to": "ar09.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "Justice",
+      "from": "m11.jpg",
+      "to": "ar11.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "The Hanged Man",
+      "from": "m12.jpg",
+      "to": "ar12.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "Death",
+      "from": "m13.jpg",
+      "to": "ar13.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "Temperance",
+      "from": "m14.jpg",
+      "to": "ar14.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "The Devil",
+      "from": "m15.jpg",
+      "to": "ar15.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "The Tower",
+      "from": "m16.jpg",
+      "to": "ar16.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "The Star",
+      "from": "m17.jpg",
+      "to": "ar17.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "The Moon",
+      "from": "m18.jpg",
+      "to": "ar18.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "The Sun",
+      "from": "m19.jpg",
+      "to": "ar19.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "The Fool",
+      "from": "m00.jpg",
+      "to": "ar00.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "The World",
+      "from": "m21.jpg",
+      "to": "ar21.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "Page of Wands",
+      "from": "w11.jpg",
+      "to": "wapa.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "Knight of Wands",
+      "from": "w12.jpg",
+      "to": "wakn.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "Queen of Wands",
+      "from": "w13.jpg",
+      "to": "waqu.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "King of Wands",
+      "from": "w14.jpg",
+      "to": "waki.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "Ace of Wands",
+      "from": "w01.jpg",
+      "to": "waac.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "Two of Wands",
+      "from": "w02.jpg",
+      "to": "wa02.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "Three of Wands",
+      "from": "w03.jpg",
+      "to": "wa03.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "Four of Wands",
+      "from": "w04.jpg",
+      "to": "wa04.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "Five of Wands",
+      "from": "w05.jpg",
+      "to": "wa05.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "Six of Wands",
+      "from": "w06.jpg",
+      "to": "wa06.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "Seven of Wands",
+      "from": "w07.jpg",
+      "to": "wa07.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "Eight of Wands",
+      "from": "w08.jpg",
+      "to": "wa08.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "Nine of Wands",
+      "from": "w09.jpg",
+      "to": "wa09.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "Ten of Wands",
+      "from": "w10.jpg",
+      "to": "wa10.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "Page of Cups",
+      "from": "c11.jpg",
+      "to": "cupa.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "Knight of Cups",
+      "from": "c12.jpg",
+      "to": "cukn.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "Queen of Cups",
+      "from": "c13.jpg",
+      "to": "cuqu.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "King of Cups",
+      "from": "c14.jpg",
+      "to": "cuki.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "Ace of Cups",
+      "from": "c01.jpg",
+      "to": "cuac.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "Two of Cups",
+      "from": "c02.jpg",
+      "to": "cu02.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "Three of Cups",
+      "from": "c03.jpg",
+      "to": "cu03.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "Four of Cups",
+      "from": "c04.jpg",
+      "to": "cu04.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "Five of Cups",
+      "from": "c05.jpg",
+      "to": "cu05.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "Six of Cups",
+      "from": "c06.jpg",
+      "to": "cu06.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "Seven of Cups",
+      "from": "c07.jpg",
+      "to": "cu07.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "Eight of Cups",
+      "from": "c08.jpg",
+      "to": "cu08.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "Nine of Cups",
+      "from": "c09.jpg",
+      "to": "cu09.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "Ten of Cups",
+      "from": "c10.jpg",
+      "to": "cu10.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "Page of Pentacles",
+      "from": "p11.jpg",
+      "to": "pepa.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "Knight of Pentacles",
+      "from": "p12.jpg",
+      "to": "pekn.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "Queen of Pentacles",
+      "from": "p13.jpg",
+      "to": "pequ.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "King of Pentacles",
+      "from": "p14.jpg",
+      "to": "peki.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "Ace of Pentacles",
+      "from": "p01.jpg",
+      "to": "peac.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "Two of Pentacles",
+      "from": "p02.jpg",
+      "to": "pe02.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "Three of Pentacles",
+      "from": "p03.jpg",
+      "to": "pe03.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "Four of Pentacles",
+      "from": "p04.jpg",
+      "to": "pe04.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "Five of Pentacles",
+      "from": "p05.jpg",
+      "to": "pe05.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "Six of Pentacles",
+      "from": "p06.jpg",
+      "to": "pe06.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "Seven of Pentacles",
+      "from": "p07.jpg",
+      "to": "pe07.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "Eight of Pentacles",
+      "from": "p08.jpg",
+      "to": "pe08.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "Nine of Pentacles",
+      "from": "p09.jpg",
+      "to": "pe09.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "Ten of Pentacles",
+      "from": "p10.jpg",
+      "to": "pe10.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "Page of Swords",
+      "from": "s11.jpg",
+      "to": "swpa.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "Knight of Swords",
+      "from": "s12.jpg",
+      "to": "swkn.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "Queen of Swords",
+      "from": "s13.jpg",
+      "to": "swqu.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "King of Swords",
+      "from": "s14.jpg",
+      "to": "swki.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "Ace of Swords",
+      "from": "s01.jpg",
+      "to": "swac.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "Two of Swords",
+      "from": "s02.jpg",
+      "to": "sw02.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "Three of Swords",
+      "from": "s03.jpg",
+      "to": "sw03.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "Four of Swords",
+      "from": "s04.jpg",
+      "to": "sw04.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "Five of Swords",
+      "from": "s05.jpg",
+      "to": "sw05.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "Six of Swords",
+      "from": "s06.jpg",
+      "to": "sw06.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "Seven of Swords",
+      "from": "s07.jpg",
+      "to": "sw07.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "Eight of Swords",
+      "from": "s08.jpg",
+      "to": "sw08.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "Nine of Swords",
+      "from": "s09.jpg",
+      "to": "sw09.jpg",
+      "status": "renamed"
+    },
+    {
+      "name": "Ten of Swords",
+      "from": "s10.jpg",
+      "to": "sw10.jpg",
+      "status": "renamed"
+    }
+  ],
+  "missing": [
+    {
+      "name": "Fortitude",
+      "apiShort": "ar08",
+      "reason": "no-local-json-entry",
+      "resolved": true,
+      "found_path": "public/cards/ar08.jpg"
+    },
+    {
+      "name": "Wheel Of Fortune",
+      "apiShort": "ar10",
+      "reason": "no-local-json-entry",
+      "resolved": true,
+      "found_path": "public/cards/ar10.jpg"
+    },
+    {
+      "name": "The Last Judgment",
+      "apiShort": "ar20",
+      "reason": "no-local-json-entry",
+      "resolved": true,
+      "found_path": "public/cards/ar20.jpg"
+    }
+  ]
+}
