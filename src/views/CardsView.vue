@@ -15,9 +15,11 @@
         <!-- Reset button removed per request -->
         <div style="color:var(--color-muted);font-size:0.85rem;text-align:right;min-width:120px">Showing {{ filteredCards.length }} cards</div>
       </div>
-      <p v-if="tabDescriptor" class="tab-descriptor">{{ tabDescriptor }}</p>
+      <Transition name="fade" mode="out-in">
+        <p v-if="tabDescriptor" :key="selectedTab" class="tab-descriptor">{{ tabDescriptor }}</p>
+      </Transition>
     </div>
-    <div class="card-grid">
+    <TransitionGroup name="card-list" tag="div" class="card-grid">
       <Card
         v-for="card in filteredCards"
         :key="card.slug"
@@ -32,24 +34,19 @@
           </div>
         </template>
         <template #content>
-          <img
-            :src="imageUrl(card.nameShort)"
-            :alt="card.title"
-            class="card-image-tile"
-            loading="lazy"
-            @error="e => e.target.style.display='none'"
-          />
-          <div class="tag-row" style="margin-top:10px">
-            <Tag
-              v-for="m in shortMeanings(card).slice(0,3)"
-              :key="m"
-              :value="m"
-              severity="secondary"
+          <div class="card-img-wrap is-loading">
+            <img
+              :src="imageUrl(card.nameShort)"
+              :alt="card.title"
+              class="card-image-tile"
+              loading="lazy"
+              @load="e => e.target.closest('.card-img-wrap').classList.remove('is-loading')"
+              @error="e => e.target.style.display='none'"
             />
           </div>
         </template>
       </Card>
-    </div>
+    </TransitionGroup>
   </div>
 </template>
 
@@ -57,7 +54,6 @@
 import { useRouter } from 'vue-router'
 import { ref, computed } from 'vue'
 import Card from 'primevue/card'
-import Tag from 'primevue/tag'
 import { cards } from '../data/cards.js'
 import { cardImageUrl } from '../api/tarot.js'
 const router = useRouter()
@@ -83,14 +79,6 @@ function toRoman(n) {
 
 function imageUrl(nameShort) {
   return cardImageUrl(nameShort)
-}
-
-function shortMeanings(card){
-  if(!card) return []
-  const up = card.upright || ''
-  const parts = up.split(/[;,]/).map(s=>s.trim()).filter(Boolean)
-  if(parts.length) return parts.map(p=>p.split('\n')[0]).slice(0,3)
-  return (card.keywords||[]).slice(0,3)
 }
 
 // Tabs filter
@@ -175,6 +163,88 @@ const tabDescriptor = computed(() => TAB_DESCRIPTORS[selectedTab.value] ?? '')
   line-height: 1.65;
   border-left: 3px solid var(--color-gold);
   padding-left: 14px;
+}
+
+/* Transitions for card list (enter/leave) and FLIP move for grid reflow */
+.card-list-enter-active, .card-list-leave-active {
+  transition: opacity 240ms ease, transform 240ms ease;
+}
+.card-list-enter-from, .card-list-leave-to {
+  opacity: 0;
+  transform: translateY(8px) scale(0.995);
+}
+.card-list-enter-to, .card-list-leave-from {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+.card-list-move {
+  transition: transform 260ms cubic-bezier(.2,.8,.2,1);
+}
+
+/* Fade for the tab descriptor text */
+.fade-enter-active, .fade-leave-active {
+  transition: opacity 180ms ease, transform 180ms ease;
+}
+.fade-enter-from, .fade-leave-to {
+  opacity: 0;
+  transform: translateY(6px);
+}
+.fade-enter-to, .fade-leave-from {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.card-tile {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* Pierce scoping to reach PrimeVue Card internals */
+.card-tile :deep(.p-card) {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card-tile :deep(.p-card-body) {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+
+.card-tile :deep(.p-card-content) {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  gap: 10px;
+}
+
+/* Make the image fill remaining card body space */
+.card-tile :deep(.card-img-wrap) {
+  flex: 1 1 auto;
+  min-height: 0;
+  display: flex;
+}
+
+.card-tile :deep(.card-img-wrap.is-loading) {
+  background: linear-gradient(90deg, #f0ece6 25%, #e8e2da 50%, #f0ece6 75%);
+  background-size: 200% 100%;
+  animation: card-img-shimmer 1.5s ease-in-out infinite;
+  border-radius: 4px;
+  min-height: 160px;
+}
+
+@keyframes card-img-shimmer {
+  0%   { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+.card-tile :deep(.card-image-tile) {
+  flex: 1 1 auto;
+  width: 100%;
+  object-fit: contain;
+  min-height: 0;
 }
 
 .title-sep{

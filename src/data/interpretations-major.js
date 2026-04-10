@@ -55,7 +55,7 @@ export default {
     growth: "Harness internal conflicts and channel them into forward movement; balance opposing forces through will.",
     imagery: "A charioteer in armor stands or sits in a chariot pulled by sphinxes or horses beneath a canopy of stars. The harnessed beasts, armor, and forward gaze symbolize the discipline of will, the channeling of opposing forces, and the controlled energy required to move toward victory or destination."
   },
-  "strength": {
+  "fortitude": {
     relationships: "Gentle strength — compassion and patience win over force; soft power heals and steadies relationships.",
     career: "Perseverance, steady confidence, and the ability to influence without aggression bring rewards.",
     finances: "Slow, steady management of resources is favored; resilience in the face of setbacks.",

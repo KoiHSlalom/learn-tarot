@@ -1,5 +1,5 @@
 <template>
-  <div v-if="card">
+  <div v-if="card" style="padding-top: 32px">
     <RouterLink to="/cards" class="back-link">← Card Library</RouterLink>
 
     <div class="card-detail-layout">
@@ -320,7 +320,7 @@ function toRoman(n) {
 .card-detail-layout {
   display: grid;
   grid-template-columns: 224px 1fr;
-  gap: 16px;
+  gap: 24px;
   align-items: start;
 }
 
@@ -335,7 +335,10 @@ function toRoman(n) {
 }
 
 .card-image-wrapper {
-  /* no positioning needed here */
+  background: #fef9ec;
+  border-radius: 12px;
+  padding: 12px;
+  box-shadow: inset 0 0 0 1px rgba(197,155,56,0.18);
 }
 
 /* Notes editor styles */
